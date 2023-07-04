@@ -5,11 +5,11 @@
  * @returns Um array de string concatenadas.
  */
 export const classNames = (...classes: string[]) =>
-    classes.filter(Boolean).join(' ');
+    classes.filter(Boolean).join(" ");
 
 export const scrollWindowToTop = () => {
     window.scrollTo({
         top: 0,
-        behavior: 'smooth',
+        behavior: "smooth",
     });
 };

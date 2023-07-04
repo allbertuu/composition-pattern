@@ -101,8 +101,8 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="mt-8 flex items-center gap-1 text-base font-medium text-zinc-400 hover:underline"
             >
-                <Sparkle className="text-red-500" weight="fill" size="1.2rem" /> Me mostre
-                algo interessante
+                <Sparkle className="text-red-500" weight="fill" size="1.2rem" />{" "}
+                Me mostre algo interessante
             </a>
         </main>
     );

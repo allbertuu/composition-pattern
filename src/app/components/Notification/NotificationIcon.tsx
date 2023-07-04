@@ -5,5 +5,5 @@ interface NotificationIconProps {
 }
 
 export function NotificationIcon({ icon: Icon }: NotificationIconProps) {
-    return <Icon className="w-6 h-6 text-red-600 self-center" weight="fill" />;
+    return <Icon className="h-6 w-6 self-center text-red-600" weight="fill" />;
 }
